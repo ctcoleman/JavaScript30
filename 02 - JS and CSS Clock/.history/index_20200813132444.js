@@ -1,9 +1,8 @@
+
 function setDate() {
-  // select the hands in the DOM to manipulate them
   const secondHand = document.querySelector('.second-hand')
   const minuteHand = document.querySelector('.minute-hand')
   const hourHand = document.querySelector('.hour-hand')
-
   // get sec hand to rotate
   const now = new Date()
   const seconds = now.getSeconds()
