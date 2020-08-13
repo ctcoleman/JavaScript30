@@ -52,10 +52,5 @@ body {
   -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
-  transition: all 0.05s;
-  -webkit-transition: all 0.05s;
-  -moz-transition: all 0.05s;
-  -ms-transition: all 0.05s;
-  -o-transition: all 0.05s;
-  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+  transition
 }
