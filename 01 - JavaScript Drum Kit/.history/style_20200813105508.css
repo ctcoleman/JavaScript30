@@ -5,8 +5,7 @@ html {
   background-size: cover;
 }
 
-body,
-html {
+body,html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -32,7 +31,7 @@ html {
   width: 10rem;
   text-align: center;
   color: white;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0,0,0,0.4);
   text-shadow: 0 0 .5rem black;
   -webkit-border-radius: .5rem;
   -moz-border-radius: .5rem;
@@ -43,8 +42,6 @@ html {
   -ms-transition: all .07s ease;
   -o-transition: all .07s ease;
 }
-
-/* ---Key details--- */
 
 kbd {
   display: block;
@@ -64,3 +61,4 @@ kbd {
   border-color: #ffc600;
   box-shadow: 0 0 1rem #ffc600;
 }
+

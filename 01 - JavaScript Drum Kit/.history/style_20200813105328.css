@@ -1,18 +1,15 @@
-/* ---Basic styling--- */
+/
 html {
   font-size: 10px;
   background: url(https://i.imgur.com/b9r5sEL.jpg) bottom center;
   background-size: cover;
 }
 
-body,
-html {
+body,html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
-
-/* ---Key styling--- */
 
 .keys {
   display: flex;
@@ -32,19 +29,16 @@ html {
   width: 10rem;
   text-align: center;
   color: white;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0,0,0,0.4);
   text-shadow: 0 0 .5rem black;
-  -webkit-border-radius: .5rem;
-  -moz-border-radius: .5rem;
-  -ms-border-radius: .5rem;
-  -o-border-radius: .5rem;
-  -webkit-transition: all .07s ease;
-  -moz-transition: all .07s ease;
-  -ms-transition: all .07s ease;
-  -o-transition: all .07s ease;
 }
 
-/* ---Key details--- */
+/* Change the key styling to show which key is pressed and sound played */
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
 
 kbd {
   display: block;
@@ -56,11 +50,4 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
-}
-
-/* Change the key styling to show which key is pressed and sound played */
-.playing {
-  transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
 }
