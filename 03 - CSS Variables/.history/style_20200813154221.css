@@ -21,7 +21,7 @@ input {
 
 /* --- default values for our js/css variables --- */
 :root {
-  --base: #22c02a;
+  --base: yellow;
   --spacing: 10px;
   --blur: 10px;
 }

@@ -21,9 +21,9 @@ input {
 
 /* --- default values for our js/css variables --- */
 :root {
-  --base: #22c02a;
-  --spacing: 10px;
-  --blur: 10px;
+--base: yellow;
+--spacing: 10px;
+--blur: 10px;
 }
 
 /* --- use the default values on the picture --- */
