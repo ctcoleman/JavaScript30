@@ -1,7 +1,13 @@
 {
   "cSpell.words": [
+    "e",
+    "function",
+    "function playsound e",
     "hihat",
     "openhat",
-    "tink"
-  ]
+    "playsound",
+    "tink",
+    "transitionend"
+  ],
+  "liveServer.settings.multiRootWorkspaceName": "01 - JavaScript Drum Kit"
 }
