@@ -17,8 +17,8 @@ function setDate() {
 
   // get hour hand to rotate
   const hours = now.getHours()
-  const hoursDegrees = ((hours / 12) * 360) + 90
-  hourHand.style.transform = `rotate(${hoursDegrees}deg)`
+  const hoursDegrees = ((hours / 24) * 360) + 90
+  hourHand.style.transform = `rotate(${minutesDegrees}deg)`
 
   // debugger console.log statements
   console.log(`seconds = ${seconds}`)
@@ -26,7 +26,7 @@ function setDate() {
   console.log(`minutes = ${minutes}`)
   console.log(`minutesDegrees = ${minutesDegrees}`)
   console.log(`hours = ${hours}`)
-  console.log(`hoursDegrees = ${hoursDegrees}`)
+  console.log(`hoursDegrees = ${secondsDegrees}`)
 }
 
 // have the setDate function run every second

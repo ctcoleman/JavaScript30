@@ -47,7 +47,7 @@ body {
   position: absolute;
   top: 50%;
   transform-origin: 100%;
-  /*set sec hand to default "noon" */
+  /*set sec hand to default "noon"*/
   transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);

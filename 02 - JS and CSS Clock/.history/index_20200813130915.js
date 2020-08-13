@@ -1,6 +1,4 @@
 const secondHand = document.querySelector('.second-hand')
-const minuteHand = document.querySelector('.minute-hand')
-const hourHand = document.querySelector('.hour-hand')
 
 function setDate() {
   // get sec hand to rotate
@@ -11,22 +9,16 @@ function setDate() {
 
 
   // get min hand to rotate
-  const minutes = now.getMinutes()
-  const minutesDegrees = ((minutes / 60) * 360) + 90
-  minuteHand.style.transform = `rotate(${minutesDegrees}deg)`
-
+  const minutes = (seconds * 60)
+  
   // get hour hand to rotate
-  const hours = now.getHours()
-  const hoursDegrees = ((hours / 12) * 360) + 90
-  hourHand.style.transform = `rotate(${hoursDegrees}deg)`
+  const hours = (minutes * 60)
 
   // debugger console.log statements
   console.log(`seconds = ${seconds}`)
   console.log(`secondsDegrees = ${secondsDegrees}`)
   console.log(`minutes = ${minutes}`)
-  console.log(`minutesDegrees = ${minutesDegrees}`)
   console.log(`hours = ${hours}`)
-  console.log(`hoursDegrees = ${hoursDegrees}`)
 }
 
 // have the setDate function run every second
